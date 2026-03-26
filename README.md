@@ -1,4 +1,4 @@
-# 🤖 FAQ RAG Chatbot (Telecom AI Assistant)
+# 🤖 FAQ RAG Chatbot 
 
 An AI-powered chatbot that answers telecom FAQs using Retrieval-Augmented Generation (RAG) based on real scraped data.
 
