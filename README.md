@@ -48,7 +48,6 @@ FAQ-RAG-Chatbot/
 ├── assets/
 ├── requirements.txt
 
-
 ---
 
 ## ⚙️ Setup
@@ -68,17 +67,17 @@ pip install -r requirements.txt
 ### 4️⃣ Add API key
 Create .env file
 
-//LLM Model use API
+# LLM API
 Anthropic_Claude_API=
 
-//Scrapper tool API
+# Firecrawl API
 FIRECRAWL_API_KEY=
 
-//FAQ Website URL
+# FAQ URLs
 FAQ_URL_STC="https://www.stc.com.sa/en/personal/support/faqs/quick-solutions.html"
 FAQ_URL_WE="https://www.te.eg/wps/portal/te/Personal/Help%20And%20Support%20l/FAQ/?1dmy&urile=wcm%3Apath%3A%2FTE%2FHelp%2FFAQ%2F"
 
-//Huggingface API for embedding
+# HuggingFace embedding API
 HF_TOKEN=
 
 ## ▶️ Run App
@@ -87,4 +86,10 @@ python app_gradio.py
 ---
 ## 📸 Demo
 ![App Screenshot](assets/demo.png)
+
+### 🎯 What this app does
+- Select telecom provider (STC / WE)
+- Choose vector database (FAISS / Chroma)
+- Ask any FAQ question
+- Get AI-generated answer grounded in real data
 
