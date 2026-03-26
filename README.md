@@ -54,7 +54,8 @@ FAQ-RAG-Chatbot/
 ## ⚙️ Setup
 
 ### 1️⃣ Clone repo
-
+bash
+'''
 git clone https://github.com/Fathi-Farouk/FAQ_RAG_ChatBot.git
 cd FAQ_RAG_ChatBot
 
@@ -81,7 +82,8 @@ FAQ_URL_WE="https://www.te.eg/wps/portal/te/Personal/Help%20And%20Support%20l/FA
 //Huggingface API for embedding
 HF_TOKEN=
 
----
+'''
+
 ## ▶️ Run App
 python app_gradio.py
 
