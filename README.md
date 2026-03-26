@@ -25,7 +25,7 @@ User Query → Embedding → Vector Search → Context Retrieval → LLM → Ans
 
 | Component | Technology |
 |----------|----------|
-| Scraping | Firecrawl |
+| Tool Used| Firecrawl https://www.firecrawl.dev/ to scraping FAQ|
 | Cleaning | Regex |
 | Framework | LangChain |
 | Embedding | sentence-transformers/all-MiniLM-L6-v2 |
