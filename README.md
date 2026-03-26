@@ -54,7 +54,7 @@ FAQ-RAG-Chatbot/
 
 ### 1️⃣ Clone repo
 
-git clone https://github.com/Fathi-Farouk/FAQ_RAG_ChatBot.git
+git clone https://github.com/Fathi-Farouk/FAQ_RAG_ChatBot.git  
 cd FAQ_RAG_ChatBot
 
 ### 2️⃣ Create virtual environment
